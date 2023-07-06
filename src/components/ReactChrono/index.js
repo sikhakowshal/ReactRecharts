@@ -1,18 +1,20 @@
 import {Chrono} from 'react-chrono'
 
-const items = [
-  {
-    title: 'May 1940',
-    cardTitle: 'Dunkirk',
-    cardSubtitle: 'Men of the British Expeditionary Force.',
-    cardDetailedText:
-      'On 10 May 1940, Hitler began his long-awaited offensive in the west by invading neutral Holland and attacking northern France.',
-  },
-]
+const items = [{title: 'CSK'}, {title: 'MI'}]
 
 const ReactChrono = () => (
   <div className="chrono-container">
-    <Chrono mode="VERTICAL">
+    <Chrono
+      mode="VERTICAL"
+      theme={{
+        primary: 'red',
+        secondary: 'blue',
+        cardBgColor: 'yellow',
+        cardForeColor: 'violet',
+        titleColor: 'black',
+      }}
+      items={items}
+    >
       <div>
         <img
           src="https://assets.ccbp.in/frontend/react-js/csk-logo-img.png"
