@@ -1,7 +1,7 @@
-import ReactPieChart from './components/ReactPieChart'
+import ReactChrono from './components/ReactChrono'
 
 import './App.css'
 
-const App = () => <ReactPieChart />
+const App = () => <ReactChrono />
 
 export default App

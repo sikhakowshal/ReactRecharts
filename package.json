@@ -12,6 +12,7 @@
     "@testing-library/user-event": "12.6.2",
     "chalk": "4.1.0",
     "react": "17.0.1",
+    "react-chrono": "2.2.2",
     "react-dom": "17.0.1",
     "recharts": "2.7.2"
   },
