@@ -1,7 +1,7 @@
-import ReactChrono from './components/ReactChrono'
+import ReactSlick from './components/ReactSlick'
 
 import './App.css'
 
-const App = () => <ReactChrono />
+const App = () => <ReactSlick />
 
 export default App
