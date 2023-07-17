@@ -1,7 +1,7 @@
-import ReactSlick from './components/ReactSlick'
+import ReactPopup from './components/ReactPopup'
 
 import './App.css'
 
-const App = () => <ReactSlick />
+const App = () => <ReactPopup />
 
 export default App

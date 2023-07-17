@@ -17,6 +17,7 @@ specifiers:
   react-dom: 17.0.1
   react-scripts: 4.0.3
   react-slick: 0.29.0
+  reactjs-popup: 2.0.5
   recharts: 2.7.2
   slick-carousel: 1.8.1
 
@@ -29,6 +30,7 @@ dependencies:
   react-chrono: 2.2.2_react-dom@17.0.1+react@17.0.1
   react-dom: 17.0.1_react@17.0.1
   react-slick: 0.29.0_react-dom@17.0.1+react@17.0.1
+  reactjs-popup: 2.0.5_react-dom@17.0.1+react@17.0.1
   recharts: 2.7.2_react-dom@17.0.1+react@17.0.1
   slick-carousel: 1.8.1
 
@@ -10008,6 +10010,17 @@ packages:
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
+    dev: false
+
+  /reactjs-popup/2.0.5_react-dom@17.0.1+react@17.0.1:
+    resolution: {integrity: sha512-b5hv9a6aGsHEHXFAgPO5s1Jw1eSkopueyUVxQewGdLgqk2eW0IVXZrPRpHR629YcgIpC2oxtX8OOZ8a7bQJbxA==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: '>=16'
+      react-dom: '>=16'
+    dependencies:
+      react: 17.0.1
+      react-dom: 17.0.1_react@17.0.1
     dev: false
 
   /read-pkg-up/3.0.0:
